@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<object id="o2-stickyNote" data="../../assets/sticky-note-inkscape.svg"></object>
+		<script>
+			document.getElementById('o2-stickyNote').addEventListener('load', (e) => {
+				e.target.contentDocument.getElementById('stickyCode').innerHTML = Math.floor(Math.random() * 1000000).toString().padStart(6, '0');
+			});
+		</script>
+	</body>
+</html>

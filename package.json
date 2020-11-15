@@ -1,0 +1,16 @@
+{
+  "name": "amongusirl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "qrcode": "^1.4.4",
+    "socket.io": "^3.0.1"
+  }
+}

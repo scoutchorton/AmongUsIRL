@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg>
+  <defs id="defs2">
+      <clipPath clipPathUnits="userSpaceOnUse">
+         <rect style="opacity:0.98999999;fill:#c8c8c8;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" width="104.76965" height="90.871643" x="3.2072344" y="198.64482" />
+      </clipPath>
+   </defs>
+   <g transform="translate(0,0.46178694)">
+      <path d="m 18.443328,281.98274 30.693577,1.64085 24.644288,10.39742 c -11.429229,6.14249 -44.754531,0.62955 -55.337865,-12.03827 z" style="opacity:0.98999999;fill:#b5a545;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+      <path d="m 0,251.11764 c 12.38519,-3.64096 17.959107,-4.92258 54.806546,-24.00149 9.255178,20.23062 12.287978,33.48756 40.254465,45.73512 -1.326673,10.92464 -30.598213,37.88741 -45.924106,10.77232 C 37.02381,292.79423 21.73781,299.94019 0,251.11764 Z" style="opacity:0.98999999;fill:#fce05a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.32291663;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+   </g>
+   <text style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332" x="-87.978043" y="246.93285" transform="rotate(-22.147926)">today's code:</text>
+   <text style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:'Comic Sans MS';-inkscape-font-specification:'Comic Sans MS';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332" x="-87.666168" y="256.77676" id="stickyCode" transform="rotate(-22.147925)">CODE</text>
+</svg>
