@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
+	<head>
+		<title>O2 Sabotage</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
+		<!--Web App Start-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="apple-mobile-web-app-title" content="O2 - Among Us IRL">
+		<meta id="isWebApp" name="apple-mobile-web-app-capable" content="yes">
+		<!--Web App End-->
+	</head>
 	<body>
-		<object id="o2-stickyNote" data="../../assets/sticky-note.svg"></object>
-		<script>
-			document.getElementById('o2-stickyNote').addEventListener('load', (e) => {
-				e.target.contentDocument.getElementById('stickyCode').innerHTML = Math.floor(Math.random() * 1000000).toString().padStart(6, '0');
-			});
-		</script>
+		<div id="init_display" class="screen">
+			<h1>Please click me to start!</h1>
+		</div>
+		<div id="panel_display" class="screen hidden">
+			<object id="o2panel" data="/assets/o2panel.svg"></object>
+		</div>
+		<audio autoplay id="sabotage_alert">
+			<source src="/assets/sabotage.mp3" />
+		</audio>
+		<script src="scripts.js"></script>
 	</body>
 </html>

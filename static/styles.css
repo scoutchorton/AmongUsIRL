@@ -1,0 +1,45 @@
+html, body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background: lightgray;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family: 'Comic Sans MS', sans-serif;
+}
+
+#qr_display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#qrcode {
+	height: 25vh;
+	width: 25vh;
+}
+
+#address {
+	padding: 0.25em;
+	background: white;
+	box-shadow: 0 0 0.2em 0.2em grey;
+	border-radius: 0.5em;
+}
+
+#menus {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	
+	width: 100%;
+}
+	
+img {
+	width: 10vw;
+}

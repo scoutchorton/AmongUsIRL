@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Reactor Sabotage</title>
+		<title>Among Us</title>
 		<script src="/socket.io/socket.io.js"></script>
 		<link href="styles.css" rel="stylesheet" type="text/css" />
 		<!--Web App Start-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-		<meta name="apple-mobile-web-app-title" content="Reactor - Among Us IRL">
+		<meta name="apple-mobile-web-app-title" content="Among Us IRL">
 		<meta id="isWebApp" name="apple-mobile-web-app-capable" content="yes">
 		<!--Web App End-->
 	</head>
 	<body>
-		<div id="init_display" class="screen">
-			<h1>Please click me to start!</h1>
+		<!--
+		<a href="/player/"><img src="assets/player.svg" /></a>
+		-->
+		<div id="qr_display">
+			<img src="" id="qrcode"/>
+			<h1 id="address">data</h1>
 		</div>
-		<div id="panel_display" class="screen hidden">
-			<object id="reactorpanel" data="/assets/reactor.svg"></object>
+		<div id="menus">
+			<a href="/sabotage/reactor/"><img src="assets/reactor_sabotage.svg" /></a>
+			<a href="/overseer/"><img src="assets/overseer.svg" /></a>
+			<a href="/sabotage/o2/"><img src="assets/o2_sabotage.svg" /></a>
 		</div>
-		<audio autoplay id="sabotage_alert">
-			<source src="/assets/sabotage.mp3" />
-		</audio>
 		<script src="scripts.js"></script>
 	</body>
 </html>

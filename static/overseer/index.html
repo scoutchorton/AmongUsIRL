@@ -2,8 +2,18 @@
 <html>
 	<head>
 		<title>Among Us</title>
+		<script src="/socket.io/socket.io.js"></script>
+		<link href="styles.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
-		<h3>OVERSEER</h3>
+		<div id="start_display" class="screen">
+			<img src="/assets/start.svg" id="start" />
+		</div>
+		<div id="sabotage_display" class="screen hidden">
+			<img src="/assets/reactor_sabotage.svg" class="sabotage_button" id="reactor" />
+			<img src="/assets/done.svg" id="done" />
+			<img src="/assets/o2_sabotage.svg" class="sabotage_button" id="o2" />
+		</div>
+		<script src="scripts.js"></script>
 	</body>
 </html>
